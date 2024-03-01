@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color:rgb(28, 28, 28);
+    font-family: poppins, sans-serif;
+    color: darkslategray;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    text-shadow: 02px 02px 02px black;
+}
+input.vendedor{
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+input.venda{
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+h3.vendedor{
+    text-shadow: 02px 02px 02px black;
+}
+h3.venda{
+    text-shadow: 02px 02px 02px black;
+}
+h3.comissao{
+    text-shadow: 02px 02px 02px black;
+}
+p.txt{
+    font-weight: bold;
+}
+button.enviar{
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    width: 3cm;
+    height: 0.8cm;
+    border-radius: 10px;
+}

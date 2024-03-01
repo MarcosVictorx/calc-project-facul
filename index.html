@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1> CALCULADORA DE COMISSÃO </h1>
+        </div>
+
+        <form action="./calc.php", method="post">
+
+            <label for="vendedor">
+                <h3 class="vendedor"> Vendedor: </h3>
+                <input type="text", class="vendedor", name="vendedor", required, placeholder="Nome do vendedor"/>
+            </label>
+
+            <label for="venda">
+                <h3 class="venda"> Venda: </h3>
+                <input type="number", class="venda", name="venda", required, placeholder="Valor">
+            </label>
+
+            <label for="comissao">
+                <h3 class="comissao"> Comissão </h3>
+                <p class="txt"> Selecione a porcentagem da sua comissão: </p>
+                <input type="radio" name="comissao" value="5" required> 5%
+                <input type="radio" name="comissao" value="10" required> 10%
+                <input type="radio" name="comissao" value="15" required> 15%
+                <input type="radio" name="comissao" value="50" required> 50%
+            </label>
+            <br>
+            <button type="submit" class="enviar"> Enviar </button>
+        </form>
+    </div>
+    
+</body>
+</html>
